@@ -1,0 +1,22 @@
+:root{
+    --background-color:#3C91E6;
+    --paragraph-color:#000000;
+    --header-color:#C5DCA0;
+
+    text-align: justify;
+
+}
+
+body{
+    background:var(--background-color);
+
+    font-family: 'Rubik', sans-serif;
+}
+
+h1,h2,h3{
+    color:var(--header-color);
+}
+
+p{
+    color:var(--paragraph-color);
+}
